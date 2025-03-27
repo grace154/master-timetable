@@ -1,0 +1,138 @@
+body{
+    font-family: Arial,sans-serif;
+    text-align: center;
+}
+.table-title {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    }
+    
+
+table {
+    width:100%;
+    border-collapse: collapse;  
+    table-layout: fixed; 
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+      }
+
+th, td {
+    border: 1px solid black; 
+    padding: 10px; 
+    text-align:center; 
+    width:50%; 
+    
+}
+td { font-size: 16px; 
+}
+th{
+    background-color: lightgrey;
+} 
+table th, table td {
+    width: 50px; 
+}
+.times-slot{
+        background-color: #d4edda; 
+        color: black;
+        transition: background-color 0.3s ease-in-out;
+        width:50%;
+        }
+.lunch-break {
+    font-weight: bold; 
+    background-color: #fff; 
+    text-align: center; 
+    font-size: 18px; 
+    border: 2px solid black; 
+    padding: 10px;
+ 
+}
+.GENDERMEETING-DEBATE{
+    font-weight: bold; 
+    background-color: #fff; 
+    text-align: center; 
+    font-size: 18px; 
+    border: 2px solid black; 
+    padding: 10px;       
+}
+.mindlecture{
+    font-weight: bold; 
+    background-color: #fff; 
+    text-align: center; 
+    font-size: 18px; 
+    border: 2px solid black; 
+    padding: 10px
+}
+.clubs{
+    font-weight: bold; 
+    background-color: #fff; 
+    text-align: center; 
+    font-size: 18px; 
+    border: 2px solid black; 
+    padding: 10px;
+}
+.Games{
+    font-weight: bold; 
+    background-color: #fff; 
+    text-align: center; 
+    font-size: 18px; 
+    border: 2px solid black; 
+    padding: 10px
+}
+td[class="Day/Time"] {
+    background-color: lightgrey;
+    color: black;
+    font-weight: bolder;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl; 
+    text-orientation: upright; 
+    transform: rotate(0deg); 
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    font-weight: bolder;
+}
+ 
+.big-box {
+    writing-mode: vertical-rl; 
+    text-align: center;
+    vertical-align: center; 
+    font-weight: bolder;
+    text-orientation: upright;
+    word-spacing:150px; 
+    
+    
+}
+.big-box1{
+    writing-mode:horizontal-tb; 
+    text-align: center;
+    vertical-align: middle; 
+    font-weight: bolder;
+    text-orientation: upright;
+    position:relative;
+
+
+}
+ol {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    margin-right: 30px;
+    padding:0;
+    width: 50px;;
+  }
+
+
+.a, a{
+  text-align: end;
+  text-decoration: none;
+  color: blue;
+}
